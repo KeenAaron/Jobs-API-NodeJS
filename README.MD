@@ -1,13 +1,17 @@
 #### Setup
 
-```bash
-npm install && npm start
-```
-
 1. Setup .env in the root
 2. Add MONGO_URI (MongoDB database URL)
 3. Add JWT_SECRET (key for the token)
 4. Add JWT_LIFETIME (token lifetime)
+
+```bash
+npm install && npm start
+```
+
+#### Swagger UI Docummentation
+
+For more info go to: http://localhost:3000/api-docs/
 
 #### Routers
 
@@ -52,5 +56,3 @@ Email Validation Regex
 - cors
 - xss-clean
 - express-rate-limit
-
-Swagger UI Docummentation
